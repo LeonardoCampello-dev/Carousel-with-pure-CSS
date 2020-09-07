@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
 
 * {
     margin: 0;
@@ -14,23 +14,23 @@ body {
 }
 
 .title {
-    display: grid;
-    grid-template-columns: 1fr 100px;
-    gap: 24px;
+    display: flex;
     align-items: center;
 }
 
 .title img {
-    width: 64px;
-    height: 64px;
+    width: 56px;
+    height: 56px;
+
+    margin-left: 16px;
 }
 
 .title h1 {
-    font-family: 'Happy Monkey', cursive;
+    font-family: 'Grandstander', cursive;
     font-size: 40px;
     line-height: 50px;
-    color: #CE0802;
-    text-shadow: 1px 1px 2px #228DC3;
+    color: #dfe0db;
+    text-shadow: 0px 0px 2px #228DC3;
 }
 
 #items-wrapper {
