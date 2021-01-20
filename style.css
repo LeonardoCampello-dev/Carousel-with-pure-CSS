@@ -1,61 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Grandstander&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    background-color: #373C3F;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #373c3f;
 }
 
 .title {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .title img {
-    width: 56px;
-    height: 56px;
+  width: 56px;
+  height: 56px;
 
-    margin-left: 16px;
+  margin-left: 16px;
 }
 
 .title h1 {
-    font-family: 'Grandstander', cursive;
-    font-size: 40px;
-    line-height: 50px;
-    color: #dfe0db;
-    text-shadow: 0px 0px 2px #228DC3;
+  font-family: "Grandstander", cursive;
+  font-size: 40px;
+  line-height: 50px;
+  color: #dfe0db;
+  text-shadow: 0px 0px 2px #228dc3;
 }
 
 #items-wrapper {
-    width: 100vw;
+  width: 100vw;
 }
 
 #items {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 
 .item {
-    flex: none;
-    width: 100%;
-    height: 400px;
-    scroll-snap-align: start;
-    pointer-events: none;
+  flex: none;
+  width: 100%;
+  height: 400px;
+  scroll-snap-align: start;
+  pointer-events: none;
 }
 
 img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    object-fit: cover;
+  object-fit: cover;
 }
